@@ -1,4 +1,3 @@
-D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\test SQLite.db
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\SQL Learn.exe.config
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\SQL Learn.exe
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\SQL Learn.pdb
@@ -30,3 +29,4 @@ D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignColors.pdb
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignThemes.Wpf.pdb
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\App.baml
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\testSQLite.db
