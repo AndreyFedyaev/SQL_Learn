@@ -38,45 +38,44 @@ namespace SQL_Learn
             if (Login.Length < 3)
             {
                 TextBoxLogin.ToolTip = "Необходимо ввести не менее 3 символов";
-                TextBoxLogin.Background = Brushes.DarkRed;
+                TextBoxLogin.Background = Brushes.Crimson;
             }
             else
             {
-                TextBoxLogin.ToolTip = "";
+                TextBoxLogin.ToolTip = null;
                 TextBoxLogin.Background = Brushes.Transparent;
             }
             ///
             if (Password1.Length < 6)
             {
                 TextBoxPassword1.ToolTip = "Необходимо ввести не менее 6 символов";
-                TextBoxPassword1.Background = Brushes.DarkRed;
+                TextBoxPassword1.Background = Brushes.Crimson;
             }
             else
             {
-                TextBoxPassword1.ToolTip = "";
+                TextBoxPassword1.ToolTip = null;
                 TextBoxPassword1.Background = Brushes.Transparent;
             }
             ///
             if (Password1 != Password2)
             {
                 TextBoxPassword2.ToolTip = "Пароли не совпадают";
-                TextBoxPassword2.Background = Brushes.DarkRed;
+                TextBoxPassword2.Background = Brushes.Crimson;
             }
             else
             {
-                TextBoxPassword2.ToolTip = "";
+                TextBoxPassword2.ToolTip = null;
                 TextBoxPassword2.Background = Brushes.Transparent;
-
             }
             ///
             if (!Email.Contains("@") || !Email.Contains("."))
             {
                 TextBoxEmail.ToolTip = "Некорректно введен Email";
-                TextBoxEmail.Background = Brushes.DarkRed;
+                TextBoxEmail.Background = Brushes.Crimson;
             }
             else
             {
-                TextBoxEmail.ToolTip = "";
+                TextBoxEmail.ToolTip = null;
                 TextBoxEmail.Background = Brushes.Transparent;
             }
         }
