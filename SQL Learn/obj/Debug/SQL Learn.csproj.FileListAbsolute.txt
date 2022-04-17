@@ -1,0 +1,32 @@
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\test SQLite.db
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\SQL Learn.exe.config
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\SQL Learn.exe
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\SQL Learn.pdb
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\EntityFramework.dll
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\EntityFramework.SqlServer.dll
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\System.Data.SQLite.dll
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\System.Data.SQLite.EF6.dll
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\System.Data.SQLite.Linq.dll
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\EntityFramework.xml
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\EntityFramework.SqlServer.xml
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\System.Data.SQLite.xml
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.csproj.AssemblyReference.cache
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.csproj.SuggestedBindingRedirects.cache
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\MainWindow.g.cs
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\App.g.cs
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn_MarkupCompile.cache
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn_MarkupCompile.lref
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\MainWindow.baml
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.g.resources
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL_Learn.Properties.Resources.resources
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.csproj.GenerateResource.cache
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.csproj.CoreCompileInputs.cache
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.csproj.CopyComplete
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.exe
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\SQL Learn.pdb
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignColors.dll
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignColors.pdb
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\App.baml
