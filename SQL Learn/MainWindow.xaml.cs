@@ -21,15 +21,26 @@ namespace SQL_Learn
     public partial class MainWindow : Window
     {
         AppContext db;
+
         public MainWindow()
         {
             InitializeComponent();
             db = new AppContext();
             List<User> EEE = db.Users.ToList();
+
+           
         }
 
-        private void Button_Reg_Click(object sender, RoutedEventArgs e)
+        private void Button_Test_Click(object sender, RoutedEventArgs e)
         {
+            User user = new User(Convert.ToInt32("2"));
+            db = new AppContext();
+            db.Users.Remove(user);
+            db.SaveChanges();
+        }
+
+            private void Button_Reg_Click(object sender, RoutedEventArgs e)
+         {
             string Login, Password1, Password2, Email;
             Login = TextBoxLogin.Text.Trim();
             Password1 = TextBoxPassword1.Password.Trim();
@@ -49,45 +60,45 @@ namespace SQL_Learn
                 TextBoxLogin.Background = Brushes.Transparent;
                 Error = false;
             }
-            ///
-            if (Password1.Length < 6)
-            {
-                TextBoxPassword1.ToolTip = "Необходимо ввести не менее 6 символов";
-                TextBoxPassword1.Background = Brushes.Crimson;
-                Error = true;
-            }
-            else
-            {
-                TextBoxPassword1.ToolTip = null;
-                TextBoxPassword1.Background = Brushes.Transparent;
-                Error = false;
-            }
-            ///
-            if (Password1 != Password2)
-            {
-                TextBoxPassword2.ToolTip = "Пароли не совпадают";
-                TextBoxPassword2.Background = Brushes.Crimson;
-                Error = true;
-            }
-            else
-            {
-                TextBoxPassword2.ToolTip = null;
-                TextBoxPassword2.Background = Brushes.Transparent;
-                Error = false;
-            }
-            ///
-            if (!Email.Contains("@") || !Email.Contains("."))
-            {
-                TextBoxEmail.ToolTip = "Некорректно введен Email";
-                TextBoxEmail.Background = Brushes.Crimson;
-                Error = true;
-            }
-            else
-            {
-                TextBoxEmail.ToolTip = null;
-                TextBoxEmail.Background = Brushes.Transparent;
-                Error = false;
-            }
+            /////
+            //if (Password1.Length < 6)
+            //{
+            //    TextBoxPassword1.ToolTip = "Необходимо ввести не менее 6 символов";
+            //    TextBoxPassword1.Background = Brushes.Crimson;
+            //    Error = true;
+            //}
+            //else
+            //{
+            //    TextBoxPassword1.ToolTip = null;
+            //    TextBoxPassword1.Background = Brushes.Transparent;
+            //    Error = false;
+            //}
+            /////
+            //if (Password1 != Password2)
+            //{
+            //    TextBoxPassword2.ToolTip = "Пароли не совпадают";
+            //    TextBoxPassword2.Background = Brushes.Crimson;
+            //    Error = true;
+            //}
+            //else
+            //{
+            //    TextBoxPassword2.ToolTip = null;
+            //    TextBoxPassword2.Background = Brushes.Transparent;
+            //    Error = false;
+            //}
+            /////
+            //if (!Email.Contains("@") || !Email.Contains("."))
+            //{
+            //    TextBoxEmail.ToolTip = "Некорректно введен Email";
+            //    TextBoxEmail.Background = Brushes.Crimson;
+            //    Error = true;
+            //}
+            //else
+            //{
+            //    TextBoxEmail.ToolTip = null;
+            //    TextBoxEmail.Background = Brushes.Transparent;
+            //    Error = false;
+            //}
 
             if (Error == false)
             {
