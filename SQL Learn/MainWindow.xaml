@@ -18,7 +18,7 @@
                         <ColumnDefinition Width="250" ></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="0" Text="Регистрация пользователя" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="15" FontWeight="Bold"/>
+                    <TextBlock Grid.Column="0" Text="Регистрация" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="15" FontWeight="Bold"/>
                     <Button Grid.Column="1" Content="Войти" HorizontalAlignment="Right" Style="{StaticResource MaterialDesignFlatButton}"></Button>
                 </Grid>
                 <TextBox x:Name="TextBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
