@@ -6,5 +6,5 @@
         xmlns:local="clr-namespace:SQL_Learn"
         mc:Ignorable="d"
         Title="Пользователи" Height="600" Width="1000">
-    <Frame x:Name="MainWindowFrame" Background="#FF1C4646" NavigationUIVisibility="Hidden" />
+    <Frame x:Name="MainWindowFrame" Background="Black" NavigationUIVisibility="Hidden" />
 </Window>
