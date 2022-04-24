@@ -30,7 +30,9 @@ D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignThemes.Wpf.pdb
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\App.baml
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\testSQLite.db
-D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Window1.g.cs
-D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Window1.baml
-D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Prog.g.cs
-D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Prog.baml
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\AuthWindow.g.cs
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\MasterProgram.g.cs
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\RegisterWindow.g.cs
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\AuthWindow.baml
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\MasterProgram.baml
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\RegisterWindow.baml
