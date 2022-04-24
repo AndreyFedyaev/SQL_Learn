@@ -32,3 +32,5 @@ D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\App.baml
 D:\С#\GitHub\SQL Learn\SQL Learn\bin\Debug\testSQLite.db
 D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Window1.g.cs
 D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Window1.baml
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Prog.g.cs
+D:\С#\GitHub\SQL Learn\SQL Learn\obj\Debug\Prog.baml

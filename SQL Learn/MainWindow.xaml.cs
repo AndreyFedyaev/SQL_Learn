@@ -31,14 +31,6 @@ namespace SQL_Learn
            
         }
 
-        //private void Button_Test_Click(object sender, RoutedEventArgs e)
-        //{
-        //    User user = new User(Convert.ToInt32("2"));
-        //    db = new AppContext();
-        //    db.Users.Remove(user);
-        //    db.SaveChanges();
-        //}
-
         private void Button_Window_Auth_Click(object sender, RoutedEventArgs e)
         {
             Window1 mainWindow1 = new Window1();
@@ -112,6 +104,10 @@ namespace SQL_Learn
                 User user = new User(Login, Password2, Email);
                 db.Users.Add(user);
                 db.SaveChanges();
+
+                Window1 mainWindow1 = new Window1();
+                mainWindow1.Show();
+                Hide();
             }
         }
     }

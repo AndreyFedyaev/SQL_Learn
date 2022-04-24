@@ -41,6 +41,9 @@ public User() { }
         {
             this.ID = ID;
         }
-        
+        public override string ToString()
+        {
+            return "логин: " + Login;
+        }
     }
 }
