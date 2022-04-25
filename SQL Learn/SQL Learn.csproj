@@ -90,6 +90,7 @@
     <Compile Include="RegisterWindow.xaml.cs">
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Stock.cs" />
     <Compile Include="User.cs" />
     <Page Include="AuthWindow.xaml">
       <SubType>Designer</SubType>
